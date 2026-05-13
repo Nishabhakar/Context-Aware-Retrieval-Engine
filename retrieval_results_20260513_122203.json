@@ -1,0 +1,98 @@
+[
+    {
+        "query": "How does the system handle peak load?",
+        "strategy_a_raw_search": [
+            {
+                "score": 0.48037055134773254,
+                "document": "The platform uses Kubernetes autoscaling to manage sudden spikes in traffic and maintain high availability during peak usage."
+            },
+            {
+                "score": 0.41340893507003784,
+                "document": "Load balancers distribute incoming requests across stateless application nodes to avoid server overload."
+            },
+            {
+                "score": 0.3390868604183197,
+                "document": "Horizontal pod autoscaling dynamically provisions compute resources based on CPU and memory utilization."
+            }
+        ],
+        "expanded_query": "how does the system handle peak load? traffic spikes autoscaling load balancing high concurrency scalability",
+        "strategy_b_expanded_search": [
+            {
+                "score": 0.6569422483444214,
+                "document": "The platform uses Kubernetes autoscaling to manage sudden spikes in traffic and maintain high availability during peak usage."
+            },
+            {
+                "score": 0.5067110061645508,
+                "document": "Load balancers distribute incoming requests across stateless application nodes to avoid server overload."
+            },
+            {
+                "score": 0.44852346181869507,
+                "document": "Horizontal pod autoscaling dynamically provisions compute resources based on CPU and memory utilization."
+            }
+        ]
+    },
+    {
+        "query": "How are failures isolated in distributed systems?",
+        "strategy_a_raw_search": [
+            {
+                "score": 0.5950762033462524,
+                "document": "Retry mechanisms and service isolation improve resilience when downstream services fail unexpectedly."
+            },
+            {
+                "score": 0.5434731245040894,
+                "document": "Circuit breakers prevent cascading failures across distributed microservices and improve fault tolerance."
+            },
+            {
+                "score": 0.3270033597946167,
+                "document": "Monitoring systems track infrastructure metrics and trigger alerts during abnormal system behavior."
+            }
+        ],
+        "expanded_query": "how are failures isolated in distributed systems? fault tolerance retry mechanisms circuit breakers resilience service isolation",
+        "strategy_b_expanded_search": [
+            {
+                "score": 0.7194392085075378,
+                "document": "Retry mechanisms and service isolation improve resilience when downstream services fail unexpectedly."
+            },
+            {
+                "score": 0.7031430006027222,
+                "document": "Circuit breakers prevent cascading failures across distributed microservices and improve fault tolerance."
+            },
+            {
+                "score": 0.3462812602519989,
+                "document": "Monitoring systems track infrastructure metrics and trigger alerts during abnormal system behavior."
+            }
+        ]
+    },
+    {
+        "query": "How is database latency reduced?",
+        "strategy_a_raw_search": [
+            {
+                "score": 0.6127811074256897,
+                "document": "Database query optimization and caching strategies reduce latency for high-frequency read operations."
+            },
+            {
+                "score": 0.5061590671539307,
+                "document": "Redis caching reduces database pressure and improves response time during periods of heavy concurrency."
+            },
+            {
+                "score": 0.32741761207580566,
+                "document": "Kafka buffers asynchronous workloads to smooth ingestion bursts and handle high throughput events."
+            }
+        ],
+        "expanded_query": "how is database latency reduced? redis caching query optimization response time read performance",
+        "strategy_b_expanded_search": [
+            {
+                "score": 0.8350385427474976,
+                "document": "Redis caching reduces database pressure and improves response time during periods of heavy concurrency."
+            },
+            {
+                "score": 0.7034878134727478,
+                "document": "Database query optimization and caching strategies reduce latency for high-frequency read operations."
+            },
+            {
+                "score": 0.36644691228866577,
+                "document": "Kafka buffers asynchronous workloads to smooth ingestion bursts and handle high throughput events."
+            }
+        ]
+    }
+]
